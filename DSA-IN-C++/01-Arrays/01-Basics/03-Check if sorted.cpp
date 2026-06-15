@@ -1,7 +1,17 @@
-// Problem: Check Sorted or not
-// Pattern: Traversal
-// Time Complexity: O(n)
-// Space Complexity: O(1)
+/*
+Problem: Check Sorted or Not
+
+Pattern: Traversal
+
+Approach:
+- Traverse the array from left to right.
+- Compare each element with its previous element.
+- If arr[i - 1] > arr[i], the array is not sorted.
+- Otherwise, the array is sorted.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 
 #include<iostream>
 #include<vector>

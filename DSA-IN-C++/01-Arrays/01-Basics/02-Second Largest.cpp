@@ -1,8 +1,24 @@
-// Problem: Find Largest Element
-// Pattern: Traversal
-// Time Complexity: O(n)
-// Space Complexity: O(1)
+/*
+Problem: Find the second largest element in an array.
 
+Pattern: Traversal
+
+Approach:
+- Maintain two variables:
+  - largest
+  - secondLargest
+- Traverse the array once.
+- If the current element is greater than largest:
+  - Update secondLargest to largest.
+  - Update largest to the current element.
+- Otherwise, if the current element is greater than secondLargest
+  and not equal to largest:
+  - Update secondLargest.
+- Return secondLargest after traversal.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 
 #include<iostream>
 #include<vector>

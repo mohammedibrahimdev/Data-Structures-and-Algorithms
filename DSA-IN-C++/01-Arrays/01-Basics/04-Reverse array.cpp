@@ -1,3 +1,20 @@
+/*
+Problem: Reverse an array.
+
+Pattern: Two Pointers
+
+Approach:
+- Use two pointers:
+  - One at the beginning of the array.
+  - One at the end of the array.
+- Swap the elements at both pointers.
+- Move the left pointer forward and the right pointer backward.
+- Continue until both pointers meet.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 #include<iostream> 
 #include<vector>
 using namespace std;

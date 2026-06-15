@@ -1,8 +1,17 @@
-// Problem: Find Largest Element
-// Pattern: Traversal
-// Time Complexity: O(n)
-// Space Complexity: O(1)
-// Alternative: *max_element(arr.begin(), arr.end())
+/*
+Problem: Find the largest element in an array.
+
+Pattern: Traversal
+
+Approach:
+- Assume the first element is the largest.
+- Traverse the array from left to right.
+- If a larger element is found, update the largest value.
+- After traversal, return the largest element.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
 
 #include <iostream>
 #include <vector>
