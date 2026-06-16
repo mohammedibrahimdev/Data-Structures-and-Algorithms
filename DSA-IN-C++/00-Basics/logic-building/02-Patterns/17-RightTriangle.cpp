@@ -9,6 +9,13 @@ Approach:
 
 Time Complexity: O(n²)
 Space Complexity: O(1)
+
+pattern:
+*
+**
+***
+****
+*****
 */
 
 #include<iostream>

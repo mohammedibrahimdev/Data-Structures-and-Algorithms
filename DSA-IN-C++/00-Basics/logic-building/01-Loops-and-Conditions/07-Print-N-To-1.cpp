@@ -16,6 +16,7 @@ int main ()
 {
     int n;
     cin >> n;
+    
     while(n >= 1)
     {
         cout << n << endl;

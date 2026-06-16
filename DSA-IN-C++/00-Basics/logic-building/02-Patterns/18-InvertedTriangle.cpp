@@ -1,18 +1,32 @@
+/*
+Problem: Print an inverted right triangle pattern.
+
+Approach:
+- Use nested loops.
+- Outer loop controls the rows.
+- Inner loop prints stars.
+- The number of stars decreases by one in each row.
+- Print a new line after each row.
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+*/
 #include<iostream>
 using namespace std;
-int main ()
+
+int main()
 {
-    int n, m = 0;
+    int n;
     cin >> n;
-    for(int j = 0;j<n;++j){
-    for(int i = 0;i<n - m;++i)
+
+    for(int row = 0; row < n; ++row)
     {
-        cout << "*";
-        m++;
-    }
-    cout << endl;
+        for(int col = 0; col < n - row; ++col)
+        {
+            cout << "*";
+        }
+        cout << endl;
     }
 
     return 0;
-
 }

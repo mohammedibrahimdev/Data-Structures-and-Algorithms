@@ -1,7 +1,6 @@
 /*
-Problem: Print a hollow square pattern.
-
-Approach:
+Problem: Print a hollow square pattern.                
+Approach:                                                
 - Print the first row completely.
 - Print the middle rows with:
   - A boundary character at the beginning.
@@ -11,7 +10,15 @@ Approach:
 
 Time Complexity: O(n²)
 Space Complexity: O(1)
+
+pattern:
+*****
+*   *
+*   *
+*   *
+*****
 */
+
 
 #include<iostream>
 using namespace std;
