@@ -23,27 +23,29 @@ Pattern:
 
 #include<iostream>
 using namespace std;
-int main ()
+
+int main()
 {
     int n;
     cin >> n;
 
-    for(int row = 1;row <= n;++row)
+    for(int row = 1; row <= n; ++row)
     {
         int value;
-        if(row%2 == 1)
-        value = 1;
-        else
-        value = 0;
 
-        for(int col = 1;col <= row;++col)
+        if(row % 2 == 1)
+            value = 1;
+        else
+            value = 0;
+
+        for(int col = 1; col <= row; ++col)
         {
             cout << value;
             value = 1 - value;
         }
-        cout<< endl;
-    }
 
+        cout << endl;
+    }
 
     return 0;
 }

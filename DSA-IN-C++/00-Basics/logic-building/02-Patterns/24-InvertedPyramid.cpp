@@ -1,3 +1,27 @@
+/*
+Problem: Print an inverted pyramid pattern.
+
+Approach:
+- Use nested loops.
+- Print increasing spaces in each row.
+- Print decreasing odd number of stars.
+- Spaces increase by 1 per row.
+- Stars decrease by 2 per row.
+- Print a new line after each row.
+
+Time Complexity: O(n²)
+Space Complexity: O(1)
+
+Pattern (n = 5):
+
+*********
+ *******
+  *****
+   ***
+    *
+
+*/
+
 #include<iostream>
 using namespace std;
 int main ()
