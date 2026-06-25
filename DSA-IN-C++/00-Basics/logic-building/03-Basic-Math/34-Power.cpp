@@ -17,7 +17,7 @@ Time Complexity: O(power)
 Space Complexity: O(1)
 
 Example:
-Input:
+Input:s
 number = 2, power = 5
 
 Process:
