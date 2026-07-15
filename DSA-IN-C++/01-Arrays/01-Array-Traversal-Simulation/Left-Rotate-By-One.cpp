@@ -1,3 +1,25 @@
+/*
+Problem: Left Rotate an Array by One Place
+Platform: N/A
+Topic: Arrays
+Pattern: Traversal
+Difficulty: Easy
+
+Approach:
+Store the first element, shift all remaining elements one position
+to the left, then place the stored element at the last index.
+
+Algorithm:
+1. Store first element.
+2. Shift elements left.
+3. Place stored element at the end.
+
+Time: O(n)
+Space: O(1)
+
+Key Learning:
+In-place array rotation can be achieved using a temporary variable.
+*/
 #include<vector>
 #include<iostream>
 using namespace std;
