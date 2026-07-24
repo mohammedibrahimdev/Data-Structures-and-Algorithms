@@ -26,8 +26,7 @@ Learning:
   while preserving their order.
 
 Mistakes:
-- Used assignment operator (=) instead of comparison
-  operator (==) in the condition.
+- None
 */
 
 #include<vector>
