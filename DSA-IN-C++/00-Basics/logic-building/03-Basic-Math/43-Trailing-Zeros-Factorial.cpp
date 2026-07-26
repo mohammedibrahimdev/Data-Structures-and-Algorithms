@@ -44,7 +44,7 @@ int main()
 
     while (powerOfFive <= n)
     {
-        trailingZeros += n / powerOfFive;
+        trailingZeros += n / powerOfFive; 
         powerOfFive *= 5;
     }
 
