@@ -1,5 +1,5 @@
 /*
-Problem      : it
+Problem      : Determine Whether Matrix Can Be Obtained By Rotation
 Platform     : LeetCode
 Problem ID   : 1886
 
