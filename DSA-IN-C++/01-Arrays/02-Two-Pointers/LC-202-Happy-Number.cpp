@@ -28,7 +28,7 @@ Learning:
 Mistakes:
 - Initially did not know Floyd's Cycle Detection
   algorithm.
-- lot mistakes was done 
+- lot mistakes was done.
 */
 
 #include<iostream>
