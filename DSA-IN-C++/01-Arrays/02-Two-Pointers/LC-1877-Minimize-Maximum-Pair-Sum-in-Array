@@ -1,0 +1,69 @@
+/*
+Problem: 1877 - Minimize Maximum Pair Sum in Array
+Platform: LeetCode
+
+Topic:
+- Arrays
+- Sorting
+- Greedy
+
+Pattern:
+- Two Pointers
+- Minimize the Maximum
+
+Important:
+- Teaches pairing the smallest with the largest to minimize the maximum pair sum.
+
+Approach:
+- Sort the array.
+- Use two pointers: one at the smallest element and one at the largest.
+- Pair the smallest and largest elements.
+- Move both pointers inward after each pair.
+- Track the maximum pair sum.
+- The maximum pair sum obtained is the minimum possible answer.
+
+Time Complexity: O(n log n)
+Space Complexity: O(1)
+*/
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int minPairSum(vector<int>& nums) {
+
+        sort(nums.begin(), nums.end());
+
+        int last = nums.size() - 1;
+        int first = 0;
+        int maxnumber = 0;
+
+        while(first < last)
+        {
+            maxnumber = max(nums[first] + nums[last], maxnumber);
+            first++;
+            last--;
+        }
+
+        return maxnumber;
+    }
+};
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    vector<int> nums(n);
+
+    for(int i = 0; i < n; ++i)
+        cin >> nums[i];
+
+    Solution obj;
+
+    cout << obj.minPairSum(nums) << endl;
+
+    return 0;
+}
