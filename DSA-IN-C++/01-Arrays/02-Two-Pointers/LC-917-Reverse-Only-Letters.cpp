@@ -7,7 +7,7 @@ Pattern      : Two Pointers
 Difficulty   : Easy
 
 Algorithm:
-- Keep one pointer at the beginning and one at the end.
+- Keep one pointer at the beginning and one at the end.`
 - If both positions contain letters, swap them.
 - If the left position is not a letter, move left forward.
 - If the right position is not a letter, move right backward.
